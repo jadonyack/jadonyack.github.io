@@ -1,0 +1,46 @@
+html {
+    background-color: #303030;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: #222;
+    overflow: hidden;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    display: inline;
+}
+
+.topnav a {
+    display: block;
+    float: right;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.topnav a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: royalblue;
+}
