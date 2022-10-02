@@ -50,6 +50,26 @@ body {
 }
 
 .main-content {
-	width: 100%;
-	padding: 15vh, 30vw;
+	padding: 10vh 20vw;
+	overflow: hidden;
 }
+
+.intro {
+	text-align: center;
+	bottom margin: 20vh;
+}
+
+.pc {
+	margin: 20vh 0;
+	width: 100%;	
+	text-align: left;
+}
+
+.pc img {
+	display: block;
+	max-width: 10vw;
+	object-fit: contain;
+	object-position: right;
+	padding-left: 3vw;
+}
+
