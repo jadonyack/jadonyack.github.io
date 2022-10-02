@@ -14,9 +14,9 @@ body {
     margin: 0;
     position: sticky;
     top: 0;
-    height: 6vh;
+    height: 5vh;
     width: 100%;
-    line-height: 6vh;
+    line-height: 5vh;
 }
 
 .topnav ul {
@@ -34,7 +34,7 @@ body {
     float: right;
     color: aliceblue;
     text-align: center;
-    padding: 1.75vh 1.5vw;
+    padding: 0vh 1.5vw;
     text-decoration: none;
     font-size: medium;
     margin: 0;
@@ -42,9 +42,14 @@ body {
 }
 
 .topnav a:hover {
-    background-color: black;
+    background-color: #191970;
 }
 
 .active {
-    background-color: royalblue;
+    background-color: #2727af;
+}
+
+.main-content {
+	width: 100%;
+	padding: 15vh, 30vw;
 }
