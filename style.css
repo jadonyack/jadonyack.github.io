@@ -1,6 +1,7 @@
 html {
     background-color: #303030;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: aliceblue;
 }
 
 body {
@@ -56,20 +57,52 @@ body {
 
 .intro {
 	text-align: center;
-	bottom margin: 20vh;
+	margin-bottom: 20vh;
 }
 
 .pc {
 	margin: 20vh 0;
 	width: 100%;	
-	text-align: left;
 }
 
-.pc img {
-	display: block;
-	max-width: 10vw;
-	object-fit: contain;
-	object-position: right;
+.pc-picture img {
+	width: auto;
+	height: 50vh;
+	float: right;
 	padding-left: 3vw;
 }
 
+.pc-text {
+	text-align: left;
+	padding: 20vh 0;
+}
+
+.resume-text {
+	text-align: center;
+}
+
+.buttons {
+	width: 50vw;
+	margin: auto;
+	text-align: center;
+}
+
+.btn {
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 12px 35px;
+	margin: 3vh 5vw;
+	color: aliceblue;
+	border-radius: 40px;
+	display: inline-block;
+	white-space: nowrap;
+	border: none;
+	background: #2727af;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+	background: #191970
+}
